@@ -31,6 +31,11 @@ body {
     cursor: pointer;
 }
 
+.text2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .showapps {
     display: inline-block;
     background: url("../images/showapps.png") center/7% no-repeat;
@@ -114,6 +119,8 @@ li {
     width: 90%;
     border: .5px #E1E1E1 solid;
     border-radius: 50px;
+    text-indent: 8%;
+    font-size: 1em;
 }
 
 #search-bar:hover {
