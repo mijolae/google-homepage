@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>GoogleHomepage.html</title>
+    <link href="/Users/mijolaewright/Documents/the_odin_project/google-homepage/body.css" rel="stylesheet" type="text/css">
+</head>
+
+<main>
+    <!---
+    need to have an "about store" in the top left and 
+    "gmail Images (grid thing) (blue) sign in" in top right
+    -->
+    <section class="head">
+        <ul id="head-nav">
+            <div class="text-dark all-text" id="nav-text-left">About</div>
+            <div class="text-dark all-text" id="nav-text-left">Store</div>
+            <div id="space"></div>
+            <div class="sign-in all-text" id="nav-text-right">Sign In</div>
+            <img class="showapps all-text" id="nav-text-right" src="../google-homepage/showapps.png" alt="show apps - made by Flatiron Images">
+            <div class="text-dark all-text" id="nav-text-right">Images</div>
+            <div class="text-dark all-text" id="nav-text-right">Gmail</div>
+        </ul>
+    </section>
+
+    <section class="space"></section>
+
+    <!---
+Google Logo
+rounded search box (with a magnifier in left corner 
+and microphone in right)
+two boxs with "Google Search" and "I'm Feeling Lucky"
+-->
+    <section class="logo">
+        <img id="image" src="../google-homepage/googlelogo.png" alt="Google logo">
+
+        <section class="search">
+            <input id="search-bar" type="text">
+
+        </section>
+        <section class="buttons">
+            <!--need manifier and microphone here-->
+            <button class="button text all-text" type="submit">Google Search</button>
+            <button class="button text all-text" type="submit">I'm Feeling Lucky</button>
+        </section>
+    </section>
+
+    <section class="space2"></section>
+
+    <!---
+    a gray box with "Advertising Business How Search works"
+    note that this is a fixed element - moves with the webpage
+    -->
+    <section class="footer">
+        <ul id="foot-nav">
+            <div class="text all-text" id="foot-text-left">Advertising</div>
+            <div class="text all-text" id="foot-text-left">Business</div>
+            <div class="text all-text" id="foot-text-left">How Search works</div>
+            <div id="space"></div>
+            <div class="text all-text" id="foot-text-right">Settings</div>
+            <div class="text all-text" id="foot-text-right">Terms</div>
+            <div class="text all-text" id="foot-text-right">Privacy</div>
+        </ul>
+    </section>
+
+</main>
+
+</html>
